@@ -1,0 +1,1 @@
+const transaction_id=document.cookie.match(/transaction-id=[\w]+/gm);

@@ -1,0 +1,1329 @@
+<style>
+  body [data-hook="homepage-hero-image"]:after {
+      background: linear-gradient(transparent 90%, #00000088 100%);
+  }
+
+
+  .promos{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:wrap;margin:2.5rem auto 0 auto}.promos .promo{position:relative}.promos .promo .promo_offer{font-size:1.3rem;font-weight:900;color:#01579b;line-height:1.1;height:5rem;display:flex;flex-direction:column;margin-bottom:0;justify-content:center}.promos .promo .promo_offer+.space_between_container{height:calc(100% - 5rem)}.promos .promo .promo_how p{margin-bottom:0}.promos .promo .promo_subHeader{font-size:1.3rem;font-weight:900;color:#01579b;line-height:1.1}.promos .promo>.promo_header{background-color:#01579b;color:#fff;font-weight:800;position:relative;left:0;font-size:1.5rem;width:auto;padding:0 .5rem;line-height:1.5}.promos .promo>.promo_mediaImage{height:340px;width:60%;vertical-align:top;display:inline-block;position:relative;background-repeat:no-repeat}.promos .promo>.promo_mediaImage>.mediaText{content:attr(data-offer) " †";color:#fff;position:absolute;padding:16% 1rem 0 1rem;font-weight:800;font-size:1.2rem;text-align:center;width:100%;height:154px;bottom:0;display:table;background-color:transparent;background-image:linear-gradient(0deg, #063a64 67%, transparent 100%, transparent)}.promos .promo>.promo_mediaImage>.mediaText>div{display:table-cell;vertical-align:middle}.promos .promo>.promo_mediaImage>.mediaText>div .promo_subHeader{text-align:left;font-size:1.2rem;font-weight:900;margin-bottom:0;color:#fff}.promos .promo>.promo_mediaImage>.mediaText>div .promo_starRating{width:110px}.promos .promo>span{height:340px;width:40%;vertical-align:top;display:inline-block;padding:.8rem;background-color:#efefef;position:relative}.promos .promo>span>p.promo_description{color:#000;font-weight:100;margin-bottom:0}.promos .promo>span>p.promo_description strong{font-weight:600;color:#01579b}.promos .promo>span>.promo_actionsWrapper{padding:0 .5rem;text-align:center}.promos .promo>span>.promo_actionsWrapper .flight-deal-card-container{margin-bottom:.5rem}.promos .promo>span p.disclaimer{font-size:.6rem;margin-bottom:0;text-align:center}.promos .promo>span button.promo_cta{background-color:#f56200;color:#fff;line-height:2.5rem;padding:0;cursor:pointer}.promos .promo:first-child .promo_cta{margin-bottom:1rem;padding:0 1rem}.promos .promo:not(:first-child){margin-bottom:2rem}.promos .promo:not(:first-child) .promo_header{font-size:1.5rem;width:100%;padding:0 .5rem;margin:0;line-height:1.5;font-weight:800}.promos .promo:not(:first-child)>span{width:50%}.promos .promo:not(:first-child)>span .promo_actionContainer{display:block;bottom:0;position:absolute;text-align:center;width:calc(100% - 1.6rem)}.promos .promo:not(:first-child)>span .promo_actionContainer button.promo_cta{background-color:#f56200;color:#fff;line-height:2.5rem;padding:0 .5rem;width:100%;cursor:pointer;margin-bottom:.5rem}.promos .promo:not(:first-child)>.promo_mediaImage{width:50%;background-color:#000;background-position:center top;background-size:cover}.promos>span,.promos>a{flex:1;height:auto;min-width:300px}.promos>span:first-child,.promos>a:first-child{min-width:100%;margin:0;margin-bottom:3rem;border-top:5px solid #ff9800;height:auto}.promos>span:first-child>.promo_header,.promos>a:first-child>.promo_header{position:absolute;top:-19px;z-index:1}.promos>span:first-child .promo_mediaImage,.promos>a:first-child .promo_mediaImage{background-position:center;background-size:cover}.promos>span:first-child .promo_mediaImage>.mediaText,.promos>a:first-child .promo_mediaImage>.mediaText{display:none}.promos>span:first-child>span,.promos>a:first-child>span{display:inline-flex;flex-direction:column;justify-content:space-between}.promos>span:nth-child(2n+3),.promos>a:nth-child(2n+3){margin-left:1rem}.promos>span:nth-child(2n+2),.promos>a:nth-child(2n+2){margin-right:1rem}@media screen and (max-width: 994px){.promos{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:center;margin:0 1rem}.promos::before,.promos::after{display:none}.promos>.promo,.promos>.promo:first-child,.promos>.promo:not(:first-child){height:auto}.promos>.promo>.promo_mediaImage,.promos>.promo:first-child>.promo_mediaImage,.promos>.promo:not(:first-child)>.promo_mediaImage{width:100%}.promos>.promo>.promo_mediaImage .promo_subHeader,.promos>.promo:first-child>.promo_mediaImage .promo_subHeader,.promos>.promo:not(:first-child)>.promo_mediaImage .promo_subHeader{text-align:left !important}.promos>.promo>span,.promos>.promo:first-child>span,.promos>.promo:not(:first-child)>span{width:100%;height:auto}.promos>.promo:not(:first-child)>span .promo_actionContainer,.promos>.promo:first-child:not(:first-child)>span .promo_actionContainer,.promos>.promo:not(:first-child):not(:first-child)>span .promo_actionContainer{position:relative;margin:0 auto 2rem}.promos>.promo:not(:first-child)>span .promo_cta,.promos>.promo:first-child:not(:first-child)>span .promo_cta,.promos>.promo:not(:first-child):not(:first-child)>span .promo_cta{position:relative;bottom:0;width:auto;display:block;margin:1rem auto 1rem auto;padding:0 1rem}}@media screen and (max-width: 767px){.promos{padding:1rem 0 1rem 0}.promos>.promo,.promos>.promo:first-child,.promos>.promo:not(:first-child){height:auto;border-top:0;margin:0}.promos>.promo:not(:last-child),.promos>.promo:first-child:not(:last-child),.promos>.promo:not(:first-child):not(:last-child){margin-bottom:1rem}.promos>.promo>.promo_mediaImage>.mediaText,.promos>.promo:first-child>.promo_mediaImage>.mediaText,.promos>.promo:not(:first-child)>.promo_mediaImage>.mediaText{height:150px;bottom:-80px}.promos>.promo>.promo_header,.promos>.promo:first-child>.promo_header,.promos>.promo:not(:first-child)>.promo_header{border-bottom:5px solid #ff9800;position:relative;line-height:50px;height:auto;width:100%;margin:0}.promos>.promo:first-child .promo_mediaImage,.promos>.promo:first-child:first-child .promo_mediaImage,.promos>.promo:not(:first-child):first-child .promo_mediaImage{width:100%;height:230px}.promos>.promo:first-child .promo_subHeader+.promo_description,.promos>.promo:first-child:first-child .promo_subHeader+.promo_description,.promos>.promo:not(:first-child):first-child .promo_subHeader+.promo_description{margin-bottom:1rem}.promos>.promo:first-child>.promo_header,.promos>.promo:first-child:first-child>.promo_header,.promos>.promo:not(:first-child):first-child>.promo_header{position:relative;border-bottom:5px solid #ff9800;line-height:1.5;top:0}.promos>.promo:not(:first-child),.promos>.promo:first-child:not(:first-child),.promos>.promo:not(:first-child):not(:first-child){margin-top:1rem}.promos>.promo:not(:first-child)>.promo_mediaImage,.promos>.promo:first-child:not(:first-child)>.promo_mediaImage,.promos>.promo:not(:first-child):not(:first-child)>.promo_mediaImage{height:250px;background-size:cover;margin-bottom:80px}.promos>.promo:not(:first-child)>.promo_mediaImage>.promo_header,.promos>.promo:first-child:not(:first-child)>.promo_mediaImage>.promo_header,.promos>.promo:not(:first-child):not(:first-child)>.promo_mediaImage>.promo_header{position:relative;line-height:2.5rem;border-bottom:5px solid #ff9800;top:0}.promos>span,.promos>a{width:100%;min-width:100%}.promos>span:nth-child(2n+3),.promos>a:nth-child(2n+3){margin-left:0}.promos>span:nth-child(2n+2),.promos>a:nth-child(2n+3){margin-right:0}.promos>span:not(:last-child),.promos>a:not(:last-child){margin-bottom:1rem}}
+
+
+
+</style>
+
+<script>
+when(function() {
+  return window.$ !== undefined && !!window.$;
+}).then(function() {
+  console.log('jQUERY is loaded', window.$);
+  /**
+   * Regex plugin code by James Padolsey
+   * https://j11y.io/snippets/regex-selector-for-jquery/
+   */
+  jQuery.expr[':'].regex = function(elem, index, match) {
+    var matchParams = match[3].split(','),
+        validLabels = /^(data|css):/,
+        attr = {
+            method: matchParams[0].match(validLabels) ? 
+                        matchParams[0].split(':')[0] : 'attr',
+            property: matchParams.shift().replace(validLabels,'')
+        },
+        regexFlags = 'ig',
+        regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+    return regex.test(jQuery(elem)[attr.method](attr.property));
+  }
+  
+
+}) // END MAIN
+// HomePagePersonalizationTest
+spa.when([
+	
+	spa.conditions.element("[data-hook='merch-spot-banner']")
+]).then(function(){
+console.log("Timmy Sandbox Start");
+
+!function(){"use strict";function a(a,e){if(!(a instanceof e))throw new TypeError("Cannot call a class as a function")}function e(a,e){for(var t=0;t<e.length;t++){var i=e[t];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(a,i.key,i)}}function t(a,e){e||(e=window.location.href),a=a.replace(/[\[\]]/g,"\\$&");var t=new RegExp("[?&]"+a+"(=([^&#]*)|&|#|$)").exec(e);return t?t[2]?decodeURIComponent(t[2].replace(/\+/g," ")):"":null}var i=t("homeairportcode").toUpperCase(),n=t("fac").toUpperCase()||"ZZZ",r=function(){function t(e,i){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"";a(this,t),this.home_airport_code=e,this.api_data=i,this.favorite_airport_code=n,this.data={flightDeals:this.getPersonalizedFlightDeals(),hotelDeals:this.api_data.hotel_deals,FACDescription:this.getPersonalizedFACDescription()}}var i,n,r;return i=t,(n=[{key:"getPersonalizedFlightDeals",value:function(){var a=this;return this.favorite_airport_code?this.api_data.campaign.flightDeals.filter((function(e){return e.origin===a.home_airport_code&&e.destination===a.favorite_airport_code}))[0]:this.api_data.campaign.flightDeals.filter((function(e){return e.origin===a.home_airport_code})).sort((function(a,e){return a.price-e.price}))[0]}},{key:"getPersonalizedFACDescription",value:function(){var a=this,e=null;if(this.favorite_airport_code)e=this.api_data.campaign.airports.filter((function(e){return e.airportcode===a.favorite_airport_code}))[0];else{var t=this.api_data.campaign.flightDeals.destination;e=this.api_data.campaign.airports.filter((function(a){return a.airportcode===t}))[0]}var i=e;return{name:i.name,destination_description:i.destination_description,destination_heading:i.destination_heading}}}])&&e(i.prototype,n),r&&e(i,r),t}(),o=null,s=$.ajax({url:"https://www.stg.allegiantair.com/deals/api/20210120_72Hour_JanuarySale",method:"GET"}),p=$.ajax({url:"https://www.stg.allegiantair.com/deals/api/current/hotel_deals",method:"GET"});$.when(s,p).then((function(a,e){console.log({campaign:a},{hotel_deals:e});var t={campaign:JSON.parse(a[0]),hotel_deals:JSON.parse(e[0])};o=new r(i,t,n),0===$("section.personalization-wrapper").length&&function(a){var e=a.data,t=e.flightDeals,i=(e.FACDescription,e.hotelDeals);console.log(a);i.hotelDeals[t.destination].deals.slice(0,2);$("[data-hook='highlighted-deals-desktop']").parent().parent().parent().parent().prepend('<section class="promos row loadingWrapper personalization-wrapper ">\n<span class="promo">\n    <h2 class="promo_header"></h2>\n    <div class="promo_mediaImage"></div><span>\n        <h3 class="promo_subHeader"></h3>\n        <p class="promo_description"></p>\n        <p class="promo_description text-centered"><strong></strong></p>\n        <div class="promo_actionsWrapper">\n            <div class="flight-deal-card-container">\n                <span class="pc-price-strikethrough"></span>\n                <span class="pc-price"></span>\n                <span class="pc-price-explain">with your <br/><span class="my"></span> points</span>\n            </div>\n            <button class="promo_cta">Search & Book Now</button>\n            <p class="disclaimer"></p>\n        </div>\n    </span>\n</span>\n</section>')}(o)}))}();
+
+
+}) // end - main
+
+// Buy More Save More =======================
+
+
+let BMSM_PROMO = "";
+/**
+ *  Booking Path: Hotel Page 
+ */
+
+ spa.when([
+  spa.conditions.location('*/hotels'),
+  spa.conditions.element("[data-hook='hotels-page-search-criteria-check-in-date']"),
+  spa.conditions.element("[data-hook='hotels-page-search-criteria-check-out-date']"),
+  spa.conditions.element("[data-hook='hotels-page_skip']"),
+]).then(function() {
+  // class BuyMoreSaveMoreCampaign{
+
+  //   constructor(){
+  //     this.TARGET_AUDIENCE = ["LAS", "SFB"];
+  //     this.MIN_HOTEL_CRITERIA = 3;
+  //     this.MAX_HOTEL_CRITERIA = 14;
+  //     this.TRANSACTION_ID = "";
+  //   }
+
+  //   checkHotelCriteria(hotel_number_of_nights){
+  //     return hotel_number_of_nights >= this.MIN_HOTEL_CRITERIA && hotel_number_of_nights < this.MAX_HOTEL_CRITERIA;
+  //   }
+
+  //   checkTargetAudience(airport_code){
+  //     return this.TARGET_AUDIENCE.includes(airport_code);
+  //   }
+
+  // }
+
+
+
+
+
+// GLOBAL ===================================
+// const TRANSACTION_ID = document.cookie.match(/transaction-id=[\w]+/gm);
+// const BUYMORESAVEMORE = {
+//   user: {
+//     journeyType: visitor.getAttr("Journey Type"),
+//     flightOriginationCity: visitor.getAttr("OriginationCity"),
+//     flightDestinationCity: visitor.getAttr("DestinationCity"),
+//     flightDepartureDate: visitor.getAttr("Departure Date"),
+//     flightReturnDate: visitor.getAttr("Return Date"),
+//     travelDuration: visitor.getAttr("TravelDuration"),
+//     loginStatus: visitor.getAttr("Log-in Status")
+//   },
+//   hotels:{}
+// }
+
+
+
+if( !checkCookieExists("bmsm_promo") ) {
+  document.cookie = "bmsm_promo=BMSM000000";
+}
+
+
+
+try{
+  /**
+   * Render BMSM Campaign
+   * 
+   * */
+  if( getCookieValue("bmsm_promo") ){
+    console.log("bmsm cookie: ", getCookieValue("bmsm_promo") );
+  }
+
+
+    let BuyMoreSaveMoreCampaign = {
+    TARGET_AUDIENCE: ["LAS", "SFB"],
+    MIN_HOTEL_CRITERIA: 3,
+    MAX_HOTEL_CRITERIA: 14,
+    TRANSACTION_ID: "",
+    checkTargetAudience: function (airport_code) {
+      return this.TARGET_AUDIENCE.includes(airport_code);
+    },
+    checkHotelCriteria: function (hotel_number_of_nights) {
+      return hotel_number_of_nights >= this.MIN_HOTEL_CRITERIA && hotel_number_of_nights < this.MAX_HOTEL_CRITERIA;
+    }
+    };
+
+
+  let hotel_page_store = {
+    header_flight_origin:             document.querySelector("[data-hook='header-flight-info_origin']").textContent ,
+    header_flight_destination:        document.querySelector("[data-hook='header-flight-info_destination']").textContent,
+    hotel_page_check_in_date:         new Date(document.querySelector("[data-hook='hotels-page-search-criteria-check-in-date']").textContent) ,
+    hotel_page_check_out_date:        new Date(document.querySelector("[data-hook='hotels-page-search-criteria-check-out-date']").textContent),
+    
+  }
+  hotel_page_store.number_of_hotel_nights =  calculateDateDifference(hotel_page_store.hotel_page_check_out_date, hotel_page_store.hotel_page_check_in_date);
+  console.log({hotel_page_store});
+  
+  if ( 
+    BuyMoreSaveMoreCampaign.checkTargetAudience( hotel_page_store.header_flight_destination ) && 
+    BuyMoreSaveMoreCampaign.checkHotelCriteria ( hotel_page_store.number_of_hotel_nights ) 
+    )
+  {
+    console.log("Buy More Save More Hotel Criteria Met.");
+    applyBMSMHotelPageStyles(hotel_page_store );
+  }
+  
+
+  
+  
+  
+  // let BMSM_Hotel_Page = {
+  //     hotel_search_criteria: JSON.parse(localStorage.getItem(document.cookie.match(/transaction-id=[\w]+/gm)[0].split("transaction-id=")[1] + "_hotels_search_criteria"))
+  //   }
+
+
+  // let hotel_checkin_date = !!BMSM_Hotel_Page.hotel_search_criteria ? BMSM_Hotel_Page.hotel_search_criteria.checkIn : new Date(new Date($("[data-hook='hotels-page-search-criteria-check-in-date']").text()).toISOString().substring(0,10));
+  // let hotel_checkout_date = !!BMSM_Hotel_Page.hotel_search_criteria ? BMSM_Hotel_Page.hotel_search_criteria.checkOut : new Date(new Date($("[data-hook='hotels-page-search-criteria-check-out-date']").text()).toISOString().substring(0,10))  ; 
+  // var hotel_number_of_nights = calculateDateDifference(new Date(hotel_checkout_date), new Date(hotel_checkin_date));
+  // let MEETS_BMSM_HOTEL_CRITERIA = hotel_number_of_nights >= 3 && hotel_number_of_nights < 14;
+
+//   if (MEETS_BMSM_HOTEL_CRITERIA){
+//     applyBMSMHotelPageStyles();
+
+//   }
+
+ }catch(error){
+   console.warn(error);
+ }
+
+
+
+function applyBMSMHotelPageStyles(hotel_page_store ){
+  if ($("div.bundle-and-save").length === 0) {
+    let hotel_cards = $("div[class*='HotelCardBox']:regex(data-hook, hotels-page-[a-zA-z\-]*-card\_[a-z-]*)");
+    $(hotel_cards).each(function (hotelCard) {
+          let hotel_name_element = this.children[3].children[0].innerText;
+          let hotel_address_element = this.children[3].children[4].innerText.replace("Map", "");
+          let hotel_price_element = this.children[4];
+  
+          
+          let has_hotel_promo_banner_text = hotel_price_element.children.length > 1;
+          if (has_hotel_promo_banner_text) {
+            let hotel_price_container = hotel_price_element.children[1].children[0];
+            applyHotelPageDiscountStyles(hotel_price_container, hotel_page_store.number_of_hotel_nights);
+            hotel_price_element = this.children[4].children[1].children[0].innerText;
+            return hotel_price_element;
+          }
+          else {
+            let hotel_price_container = hotel_price_element.children[0].children[0];
+            applyHotelPageDiscountStyles(hotel_price_container, hotel_page_store.number_of_hotel_nights);
+            hotel_price_element = this.children[4].children[0].children[0].innerText;
+            return hotel_price_element;
+          }
+  
+        });
+  };
+}
+
+});
+
+/**
+ *  Booking Path: Hotel Details Page 
+ */
+spa.when([
+  spa.conditions.location('*/hotels/*')
+
+]).then(function() {
+
+  let BMSM_Hotel_Details_Page = {
+    hotel_search_criteria: JSON.parse(localStorage.getItem(document.cookie.match(/transaction-id=[\w]+/gm)[0].split("transaction-id=")[1] + "_hotels_search_criteria"))
+  }
+
+  console.log({BMSM_Hotel_Details_Page})
+
+let hotel_checkin_date = BMSM_Hotel_Details_Page.hotel_search_criteria.checkIn;
+let hotel_checkout_date =BMSM_Hotel_Details_Page.hotel_search_criteria.checkOut; 
+var hotel_number_of_nights = calculateDateDifference(new Date(hotel_checkout_date), new Date(hotel_checkin_date));
+let MEETS_BMSM_HOTEL_CRITERIA = hotel_number_of_nights >= 3 && hotel_number_of_nights < 14;
+
+if (MEETS_BMSM_HOTEL_CRITERIA){
+  applyHotelDetailsBMSMStyles(hotel_number_of_nights);
+  $("[data-hook='room-pod_hotel-book-button']").on("click", function(){
+    console.log("room selected clicked...");
+    spa.when([
+      spa.conditions.element("[data-hook='room-pod_badge']")
+    ])
+    .then(function(){
+    
+    let hotel_checkin_date          = BMSM_Hotel_Details_Page.hotel_search_criteria.checkIn;
+    let hotel_checkout_date         = BMSM_Hotel_Details_Page.hotel_search_criteria.checkOut; 
+    let hotel_room_count            = BMSM_Hotel_Details_Page.hotel_search_criteria.roomsCount;
+    let bmsm_promo_hotel_room_count = hotel_room_count < 10 ? "0" + hotel_room_count : hotel_room_count;
+    let bmsm_promo_hotel_nights     = hotel_number_of_nights < 10 ? "0" + hotel_number_of_nights : hotel_number_of_nights;
+    console.log("bmsm test: ", "BMSMB" + bmsm_promo_hotel_nights + bmsm_promo_hotel_room_count + "00");
+      // Cookie test
+      if( checkCookieExists("bmsm_promo") ){
+      let bmsm_promo_cookie = getCookieValue("bmsm_promo");
+      let updated_bmsm_promo_cookie = bmsm_promo_cookie.replace(/([\d\d]{2})([\d\d]{2})([\d\d]{2})/g, `${bmsm_promo_hotel_nights}${bmsm_promo_hotel_room_count}$3`);
+      document.cookie = `bmsm_promo=${updated_bmsm_promo_cookie}`;
+    }
+    
+  
+    if (BMSM_PROMO == ""){
+      BMSM_PROMO = "BMSMB" + bmsm_promo_hotel_nights + bmsm_promo_hotel_room_count + "00";
+    }
+   
+
+    $.ajax({
+    method:"POST",
+    headers:{
+    "Transaction-Id": document.location.href.split('/')[4],
+
+    },
+    dataType: "json",
+    contentType: "application/json",
+    url: "/graphql",
+    data: JSON.stringify({
+    operationName: "addPromoPayment",
+    variables: {payment: {code: BMSM_PROMO || "BMSMB" + bmsm_promo_hotel_nights + bmsm_promo_hotel_room_count + "00"  }},
+    query: `
+    mutation addPromoPayment($payment: PromoPaymentInput!) {
+    addPromoPayment(payment: $payment) {
+    order {
+    loyalty {
+    ...LoyaltyFragment
+    __typename
+    }
+    payments {
+    ...OrderPaymentFragment
+    ...PromoPaymentFragment
+    ...VoucherPaymentFragment
+    __typename
+    }
+    price {
+    balanceDue
+    __typename
+    }
+    __typename
+    }
+    errors
+    __typename
+    }
+    }
+
+    fragment OrderPaymentFragment on OrderPayment {
+    paymentType
+    paymentStatus
+    paymentMethod
+    total {
+    amount
+    currency
+    __typename
+    }
+    __typename
+    }
+
+    fragment PromoPaymentFragment on PromoPayment {
+    id
+    description
+    isAutoApplied
+    __typename
+    }
+
+    fragment VoucherPaymentFragment on VoucherPayment {
+    id
+    type
+    __typename
+    }
+
+    fragment LoyaltyFragment on OrderLoyalty {
+    totalPoints
+    totalAmount {
+    amount
+    currency
+    __typename
+    }
+    applicableAmount {
+    amount
+    currency
+    __typename
+    }
+    applicablePoints
+    rewardPoints
+    dueAmount {
+    amount
+    __typename
+    }
+    bonusPoints
+    enrolled
+    eligible
+    bonusAndRewardPoints
+    totalDueAmount {
+    amount
+    currency
+    __typename
+    }
+    __typename
+    }
+
+    `
+    }
+    ),
+    success: function(res, status, xhr){
+    console.log("XHR: ", xhr.responseJSON);
+    updateCartDetails();
+
+    }
+
+
+    });
+
+
+
+    })
+    
+  })
+}
+
+function updateCartDetails(){
+  $.ajax({
+    method:"POST",
+    headers:{
+        "Transaction-Id": document.location.href.split('/')[4],
+        
+    },   
+    dataType: "json",
+    contentType: "application/json",
+    url: "/graphql",
+    data: JSON.stringify({ 
+        variables: {}, 
+        query: `
+        query cart {
+  order {
+    items {
+      id
+      __typename
+      ...BundleOrderItemFragment
+      ...FlightOrderItemFragment
+      ...HotelOrderItemFragment
+      ...SeatOrderItemFragment
+      ...TravelerAncillaryOrderItemFragment
+      ...VehicleOrderItemFragment
+      ...ItineraryAncillaryOrderItemFragment
+    }
+    travelers {
+      id
+      firstName
+      lastName
+      middleName
+      suffix
+      isPrimary
+      type
+      ssrs {
+        code
+        flightId
+        title
+        price {
+          amount
+          currency
+          __typename
+        }
+        additionalInfo
+        __typename
+      }
+      __typename
+    }
+    price {
+      total
+      balanceDue
+      taxes {
+        amount
+        __typename
+      }
+      fees {
+        amount
+        __typename
+      }
+      __typename
+    }
+    payments {
+      ... on PromoPayment {
+        id
+        description
+        total {
+          amount
+          currency
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment BundleOrderItemFragment on OrderItem {
+  ... on BundleOrderItem {
+    id
+    bundle {
+      id
+      tier
+      name
+      banner
+      ancillaries {
+        name
+        type
+        price {
+          amount
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    price {
+      amount
+      currency
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment FlightOrderItemFragment on OrderItem {
+  ... on FlightOrderItem {
+    id
+    flight {
+      id
+      number
+      origin {
+        code
+        displayName
+        city
+        state
+        __typename
+      }
+      destination {
+        code
+        displayName
+        city
+        state
+        __typename
+      }
+      departingTime
+      arrivalTime
+      isOvernight
+      __typename
+    }
+    seatmap {
+      seatSizesMap {
+        id
+        name
+        __typename
+      }
+      __typename
+    }
+    flightPrice: price {
+      total
+      subtotal
+      taxesAndFees
+      taxes {
+        total {
+          amount
+          currency
+          __typename
+        }
+        breakdown {
+          name
+          code
+          value {
+            amount
+            currency
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      fees {
+        total {
+          amount
+          currency
+          __typename
+        }
+        breakdown {
+          name
+          code
+          value {
+            amount
+            currency
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      discountValue {
+        amount
+        currency
+        __typename
+      }
+      discountType
+      total
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment HotelOrderItemFragment on OrderItem {
+  ... on HotelOrderItem {
+    id
+    hotelPrice: price {
+      total
+      __typename
+    }
+    roomType
+    roomsCount
+    roomId
+    hotelId
+    hotel {
+      name
+      promos {
+        id
+        code
+        headlineDescription
+        __typename
+      }
+      __typename
+    }
+    checkin {
+      time
+      __typename
+    }
+    checkout {
+      time
+      __typename
+    }
+    roomsCount
+    adultCount
+    childrenCount
+    __typename
+  }
+  __typename
+}
+
+fragment SeatOrderItemFragment on OrderItem {
+  ... on SeatOrderItem {
+    id
+    flightId
+    travelerId
+    column
+    row
+    price {
+      amount
+      currency
+      __typename
+    }
+    bundledAncillaryPrice {
+      amount
+      __typename
+    }
+    isBundledAncillaryIncluded
+    seatSizeId
+    __typename
+  }
+  __typename
+}
+
+fragment TravelerAncillaryOrderItemFragment on OrderItem {
+  ... on TravelerAncillaryOrderItem {
+    id
+    flightId
+    travelerId
+    ancillaryType
+    quantity
+    price {
+      amount
+      currency
+      __typename
+    }
+    bundledAncillaryPrice {
+      amount
+      __typename
+    }
+    isBundledAncillaryIncluded
+    __typename
+  }
+  __typename
+}
+
+fragment VehicleOrderItemFragment on OrderItem {
+  ... on VehicleOrderItem {
+    id
+    vehiclePrice: price {
+      total {
+        amount
+        currency
+        __typename
+      }
+      __typename
+    }
+    vehicle {
+      category
+      code
+      type
+      description
+      __typename
+    }
+    vendor {
+      name
+      __typename
+    }
+    promotions {
+      id
+      code
+      headlineDescription
+      __typename
+    }
+    pickUpDate
+    dropOffDate
+    __typename
+  }
+  __typename
+}
+
+fragment ItineraryAncillaryOrderItemFragment on OrderItem {
+  ... on ItineraryAncillaryOrderItem {
+    id
+    ancillaryType
+    quantity
+    price {
+      amount
+      currency
+      __typename
+    }
+    bundledAncillaryPrice {
+      amount
+      __typename
+    }
+    isBundledAncillaryIncluded
+    __typename
+  }
+  __typename
+}`
+    }
+    ),
+    success: function(res, status, xhr){
+        console.log("XHR: ", xhr.responseJSON);
+        return xhr.responseJSON.data 
+        
+    }
+
+});
+}
+
+
+function applyHotelDetailsBMSMStyles(hotel_number_of_nights){
+  if ($("div.bundle-and-save").length === 0) {
+    $("div[data-hook^='room-pod']").each(function(element){
+    console.log(this.children[2]);
+ 
+    if(this.children[2].children.length > 1){
+      let priceContainer = this.children[2].children[1].children[0];
+      let hotelDiscountPrice = calculateHotelDiscountPrice(priceContainer.innerText, hotel_number_of_nights);
+     
+      
+      console.log(priceContainer.innerText);
+
+      $(priceContainer).css({
+            "text-decoration": "line-through",
+            "color": "#7d7d7d",
+            "font-size": "1.5rem"
+          });
+            $(priceContainer).after(`
+            <div class="bundle-and-save" style="display:flex; align-items:center;margin-top: 0px;margin-bottom: 0px;">
+            <span style="display:inline-block;height: 38px; width: 77px;margin-right: 5px; vertical-align:bottom;">
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 157.8 74.67'><defs><style>.cls-1{fill:#f15500;}.cls-2{fill:#fff;}</style></defs><title>Asset 1</title><g id='Layer_2' data-name='Layer 2'><g id='Layer_2-2' data-name='Layer 2'><path class='cls-1' d='M106.67,71.56,76,44.75a9.6,9.6,0,0,1,0-14.83L106.67,3.11a13.29,13.29,0,0,1,17,0L154.3,29.92a9.6,9.6,0,0,1,0,14.83L123.64,71.56A13.29,13.29,0,0,1,106.67,71.56Z'/><path class='cls-1' d='M12.9,0H115.07V74.67H12.81A12.82,12.82,0,0,1,0,61.86v-49A12.89,12.89,0,0,1,12.9,0Z'/><circle class='cls-2' cx='144.98' cy='36.96' r='7.2'/><path class='cls-2' d='M19.61,10.73c3.81,0,6.1,1.76,6.1,4.73a4.11,4.11,0,0,1-3.48,4.26,4.62,4.62,0,0,1,4.32,4.78c0,3.21-2.54,5.13-6.8,5.13h-8.1V10.73Zm-5.8,8.16H19.5c2.54,0,4-1.11,4-3.08s-1.49-3-4-3H13.81Zm0,8.69H19.5c3.08,0,4.86-1.22,4.86-3.38s-1.78-3.26-4.86-3.26H13.81Z'/><path class='cls-2' d='M41.67,29.63H39.56V26.42c-.94,2.21-2.83,3.26-5.39,3.29-3.32,0-5.32-2.11-5.32-5.53V15.4H31v8.21a3.65,3.65,0,0,0,3.94,4c3-.05,4.67-2.18,4.67-5.21v-7h2.11Z'/><path class='cls-2' d='M58.46,20.86v8.77h-2.1V21.42a3.68,3.68,0,0,0-4-4A4.61,4.61,0,0,0,47.56,22v7.64H45.45V15.4h2.11v3.13c1-2.15,2.91-3.18,5.5-3.21C56.47,15.32,58.46,17.43,58.46,20.86Z'/><path class='cls-2' d='M74.88,29.63H72.77V26.58a5.92,5.92,0,0,1-5.53,3.16c-4,0-6.86-3-6.86-7.24s2.81-7.2,6.83-7.2a6,6,0,0,1,5.56,3.18V9.6h2.11Zm-2.11-7.07a5.14,5.14,0,1,0-10.28,0,5.14,5.14,0,1,0,10.28,0Z'/><path class='cls-2' d='M78.93,29.63V9.6H81v20Z'/><path class='cls-2' d='M97.21,23.34H85.6a5,5,0,0,0,5.16,4.53,6,6,0,0,0,4.4-1.78l1.16,1.24a7.46,7.46,0,0,1-5.73,2.38,6.8,6.8,0,0,1-7.07-7.18,6.81,6.81,0,0,1,7-7.18C95.16,15.32,97.42,18.51,97.21,23.34Zm-1.89-1.73a4.44,4.44,0,0,0-4.75-4.45,4.8,4.8,0,0,0-5,4.45Z'/><path class='cls-2' d='M116,26.85a8.15,8.15,0,0,1-5.86,2.89,5.33,5.33,0,0,1-5.61-5.19c0-2.75,2.08-4.18,4.29-5.37a7.4,7.4,0,0,1-1.94-4.45c0-2.38,1.86-4.08,4.61-4.08s4.37,1.57,4.37,3.81c0,2.56-2.32,3.89-4.66,5.13,1.16,1.35,2.69,2.91,4.58,4.78a18.13,18.13,0,0,0,2-3.68l1.43,1.11A18.64,18.64,0,0,1,117,25.58l3.26,3.21L119.16,30Zm-1.22-1.22c-2.07-2.07-3.77-3.8-5-5.29-1.87,1-3.43,2.16-3.43,4.05A3.68,3.68,0,0,0,110.22,28,6.27,6.27,0,0,0,114.78,25.63Zm-4.53-7.18c2.08-1.08,3.89-2.1,3.89-4a2.36,2.36,0,0,0-2.65-2.35,2.64,2.64,0,0,0-2.89,2.59A6.61,6.61,0,0,0,110.25,18.45Z'/><path class='cls-2' d='M34.71,38.46l-2.95,5.32A25.55,25.55,0,0,0,21.9,41c-2,0-3.39.65-3.39,1.95,0,4.64,16.28,2,16.28,11.69,0,5.36-5.45,8.19-12.32,8.19A25.14,25.14,0,0,1,8.39,58.53l3-5.25a20.76,20.76,0,0,0,11.13,4c2.46,0,4-.81,4-2.34,0-4.75-16.28-1.92-16.28-11.42,0-4.94,4.89-8.08,12.28-8.08A25.77,25.77,0,0,1,34.71,38.46Z'/><path class='cls-2' d='M43.72,57.65l-2.24,4.94h-8L46.72,35.78h8.05l13,26.81H59.39l-2.2-4.94ZM50.5,42.56,46,52.48H54.9Z'/><path class='cls-2' d='M74.88,62.59l-12-26.81h8.36l7.87,19.73L87,35.78h8L83,62.59Z'/><path class='cls-2' d='M103.74,41.14v5.33h14.7v5.36h-14.7v5.4h16.77v5.36H95.91V35.78H120v5.36Z'/></g></g></svg>
+            </span>
+            <span style="display:inline-block; font-size: 2rem;color: rgb(1, 87, 155);font-weight: 600;line-height: 1;">$${hotelDiscountPrice}</span>
+            </div>
+            `);
+          
+
+    }
+    if(this.children[2].children.length === 1){
+      let priceContainer = this.children[2].children[0].children[0];
+      let hotelDiscountPrice = calculateHotelDiscountPrice(priceContainer.innerText, hotel_number_of_nights);
+      console.log(priceContainer.innerText);
+      $(priceContainer).css({
+            "text-decoration": "line-through",
+            "color": "#7d7d7d",
+            "font-size": "1.5rem"
+          });
+            $(priceContainer).after(`
+            <div class="bundle-and-save" style="display:flex; align-items:center;margin-top: 0px;margin-bottom: 0px;">
+            <span style="display:inline-block;height: 38px; width: 77px;margin-right: 5px; vertical-align:bottom;">
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 157.8 74.67'><defs><style>.cls-1{fill:#f15500;}.cls-2{fill:#fff;}</style></defs><title>Asset 1</title><g id='Layer_2' data-name='Layer 2'><g id='Layer_2-2' data-name='Layer 2'><path class='cls-1' d='M106.67,71.56,76,44.75a9.6,9.6,0,0,1,0-14.83L106.67,3.11a13.29,13.29,0,0,1,17,0L154.3,29.92a9.6,9.6,0,0,1,0,14.83L123.64,71.56A13.29,13.29,0,0,1,106.67,71.56Z'/><path class='cls-1' d='M12.9,0H115.07V74.67H12.81A12.82,12.82,0,0,1,0,61.86v-49A12.89,12.89,0,0,1,12.9,0Z'/><circle class='cls-2' cx='144.98' cy='36.96' r='7.2'/><path class='cls-2' d='M19.61,10.73c3.81,0,6.1,1.76,6.1,4.73a4.11,4.11,0,0,1-3.48,4.26,4.62,4.62,0,0,1,4.32,4.78c0,3.21-2.54,5.13-6.8,5.13h-8.1V10.73Zm-5.8,8.16H19.5c2.54,0,4-1.11,4-3.08s-1.49-3-4-3H13.81Zm0,8.69H19.5c3.08,0,4.86-1.22,4.86-3.38s-1.78-3.26-4.86-3.26H13.81Z'/><path class='cls-2' d='M41.67,29.63H39.56V26.42c-.94,2.21-2.83,3.26-5.39,3.29-3.32,0-5.32-2.11-5.32-5.53V15.4H31v8.21a3.65,3.65,0,0,0,3.94,4c3-.05,4.67-2.18,4.67-5.21v-7h2.11Z'/><path class='cls-2' d='M58.46,20.86v8.77h-2.1V21.42a3.68,3.68,0,0,0-4-4A4.61,4.61,0,0,0,47.56,22v7.64H45.45V15.4h2.11v3.13c1-2.15,2.91-3.18,5.5-3.21C56.47,15.32,58.46,17.43,58.46,20.86Z'/><path class='cls-2' d='M74.88,29.63H72.77V26.58a5.92,5.92,0,0,1-5.53,3.16c-4,0-6.86-3-6.86-7.24s2.81-7.2,6.83-7.2a6,6,0,0,1,5.56,3.18V9.6h2.11Zm-2.11-7.07a5.14,5.14,0,1,0-10.28,0,5.14,5.14,0,1,0,10.28,0Z'/><path class='cls-2' d='M78.93,29.63V9.6H81v20Z'/><path class='cls-2' d='M97.21,23.34H85.6a5,5,0,0,0,5.16,4.53,6,6,0,0,0,4.4-1.78l1.16,1.24a7.46,7.46,0,0,1-5.73,2.38,6.8,6.8,0,0,1-7.07-7.18,6.81,6.81,0,0,1,7-7.18C95.16,15.32,97.42,18.51,97.21,23.34Zm-1.89-1.73a4.44,4.44,0,0,0-4.75-4.45,4.8,4.8,0,0,0-5,4.45Z'/><path class='cls-2' d='M116,26.85a8.15,8.15,0,0,1-5.86,2.89,5.33,5.33,0,0,1-5.61-5.19c0-2.75,2.08-4.18,4.29-5.37a7.4,7.4,0,0,1-1.94-4.45c0-2.38,1.86-4.08,4.61-4.08s4.37,1.57,4.37,3.81c0,2.56-2.32,3.89-4.66,5.13,1.16,1.35,2.69,2.91,4.58,4.78a18.13,18.13,0,0,0,2-3.68l1.43,1.11A18.64,18.64,0,0,1,117,25.58l3.26,3.21L119.16,30Zm-1.22-1.22c-2.07-2.07-3.77-3.8-5-5.29-1.87,1-3.43,2.16-3.43,4.05A3.68,3.68,0,0,0,110.22,28,6.27,6.27,0,0,0,114.78,25.63Zm-4.53-7.18c2.08-1.08,3.89-2.1,3.89-4a2.36,2.36,0,0,0-2.65-2.35,2.64,2.64,0,0,0-2.89,2.59A6.61,6.61,0,0,0,110.25,18.45Z'/><path class='cls-2' d='M34.71,38.46l-2.95,5.32A25.55,25.55,0,0,0,21.9,41c-2,0-3.39.65-3.39,1.95,0,4.64,16.28,2,16.28,11.69,0,5.36-5.45,8.19-12.32,8.19A25.14,25.14,0,0,1,8.39,58.53l3-5.25a20.76,20.76,0,0,0,11.13,4c2.46,0,4-.81,4-2.34,0-4.75-16.28-1.92-16.28-11.42,0-4.94,4.89-8.08,12.28-8.08A25.77,25.77,0,0,1,34.71,38.46Z'/><path class='cls-2' d='M43.72,57.65l-2.24,4.94h-8L46.72,35.78h8.05l13,26.81H59.39l-2.2-4.94ZM50.5,42.56,46,52.48H54.9Z'/><path class='cls-2' d='M74.88,62.59l-12-26.81h8.36l7.87,19.73L87,35.78h8L83,62.59Z'/><path class='cls-2' d='M103.74,41.14v5.33h14.7v5.36h-14.7v5.4h16.77v5.36H95.91V35.78H120v5.36Z'/></g></g></svg>
+            </span>
+            <span style="display:inline-block; font-size: 2rem;color: rgb(1, 87, 155);font-weight: 600;line-height: 1;">$${hotelDiscountPrice}</span>
+            </div>
+            `);
+
+    }
+   
+  })
+  }
+
+}
+
+}) // end - hotel detail spa.then 
+
+
+/**
+ * Booking Path: Car Selection Page
+ * 
+ */
+ spa.when([
+  spa.conditions.location('*/cars'),
+  spa.conditions.element("[data-hook='cars-page_skip']"),
+  spa.conditions.element("[data-hook^='car-pick-up']"), 
+  spa.conditions.element("[data-hook^='car-drop-of']"),  
+
+]).then(function() {
+   console.log({BMSM_PROMO});
+  let flightDestination = $("[data-hook='header-flight-info_destination']").text();
+  let car_pick_up_date = new Date($("[data-hook^='car-pick-up']").parent().parent().children()[2].textContent);
+  let car_drop_off_date = new Date($("[data-hook^='car-drop-of']").parent().parent().children()[2].textContent);
+  let number_car_rentals_days = parseInt((car_drop_off_date - car_pick_up_date) / 86400000);
+  let promo_regex_pattern = /BMSM([\d\d]{2})([\d\d]{2})([\d\d]{2})/g;
+
+  console.log("car page 1");
+  if(number_car_rentals_days >= 3){
+    applyBMSMCarPageStyles();
+
+    $("button[type='button']:regex(class, CarVendorPrices__PriceSelectionButton )").on("click", function(){
+     
+      $(this).children(":first").removeAttr("style");
+      if($(this).text() ===  "Added to cart") {
+        $(this).children(":first").css({"text-decoration":"line-through", "color":"#212121" });
+      };
+      
+      let bmsm_promo_car = 0;
+      if(number_car_rentals_days < 10){
+        bmsm_promo_car = "0" + number_car_rentals_days;
+      } 
+      else{
+        bmsm_promo_car =  number_car_rentals_days;
+      }
+      // BMSM_PROMO = BMSM_PROMO.replace(/([\d\d]{2})([\d\d]{2})([\d\d]{2})/g, `03$2$3`)
+      if(BMSM_PROMO){
+        BMSM_PROMO = BMSM_PROMO.replace(/([\d\d]{2})([\d\d]{2})([\d\d]{2})/g, `$1$2${bmsm_promo_car}`)
+      }
+      
+      if($(this).text() ===  "Added to cart" || $(this).text() ===  "Remove from cart" ){
+   
+        BMSM_PROMO = BMSM_PROMO.replace(/([\d\d]{2})([\d\d]{2})([\d\d]{2})/g, `$1$200`);
+      }
+      
+
+    })
+
+    handleApplyBMSMPromoCodes(BMSM_PROMO);
+
+    
+  }
+
+
+function applyBMSMCarPageStyles() {
+
+    if ($("span.bundle-and-save").length === 0) {
+      $("button[class^='Button__StyledButton']:not(disabled)").each(function () {
+    
+        if ($(this).attr("class").match(/CarVendorPrices__PriceSelectionButton/g) && !$(this).is(":disabled") && !$(this).attr("class").match(/car-already-selected/g)) {
+    
+          let currentElement = this;
+          let car_price = $(currentElement).children(":first").text().split("$")[1];
+          let car_button_selection_text = $(currentElement).children(":first").text();
+          $(currentElement).children(":first").css({"text-decoration":"line-through", "color":"#212121" });
+          let car_bundle_save_html = `
+          <span class="bundle-and-save" style="display:flex;align-items: center;margin:  12px 0;color: rgb(1, 87, 155);font-weight: 700;">
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 157.8 74.67' style="width: 64px; margin-right: 6px;"><defs><style>.cls-1{fill:#f15500;}.cls-2{fill:#fff;}</style></defs><title>Asset 1</title><g id='Layer_2' data-name='Layer 2'><g id='Layer_2-2' data-name='Layer 2'><path class='cls-1' d='M106.67,71.56,76,44.75a9.6,9.6,0,0,1,0-14.83L106.67,3.11a13.29,13.29,0,0,1,17,0L154.3,29.92a9.6,9.6,0,0,1,0,14.83L123.64,71.56A13.29,13.29,0,0,1,106.67,71.56Z'/><path class='cls-1' d='M12.9,0H115.07V74.67H12.81A12.82,12.82,0,0,1,0,61.86v-49A12.89,12.89,0,0,1,12.9,0Z'/><circle class='cls-2' cx='144.98' cy='36.96' r='7.2'/><path class='cls-2' d='M19.61,10.73c3.81,0,6.1,1.76,6.1,4.73a4.11,4.11,0,0,1-3.48,4.26,4.62,4.62,0,0,1,4.32,4.78c0,3.21-2.54,5.13-6.8,5.13h-8.1V10.73Zm-5.8,8.16H19.5c2.54,0,4-1.11,4-3.08s-1.49-3-4-3H13.81Zm0,8.69H19.5c3.08,0,4.86-1.22,4.86-3.38s-1.78-3.26-4.86-3.26H13.81Z'/><path class='cls-2' d='M41.67,29.63H39.56V26.42c-.94,2.21-2.83,3.26-5.39,3.29-3.32,0-5.32-2.11-5.32-5.53V15.4H31v8.21a3.65,3.65,0,0,0,3.94,4c3-.05,4.67-2.18,4.67-5.21v-7h2.11Z'/><path class='cls-2' d='M58.46,20.86v8.77h-2.1V21.42a3.68,3.68,0,0,0-4-4A4.61,4.61,0,0,0,47.56,22v7.64H45.45V15.4h2.11v3.13c1-2.15,2.91-3.18,5.5-3.21C56.47,15.32,58.46,17.43,58.46,20.86Z'/><path class='cls-2' d='M74.88,29.63H72.77V26.58a5.92,5.92,0,0,1-5.53,3.16c-4,0-6.86-3-6.86-7.24s2.81-7.2,6.83-7.2a6,6,0,0,1,5.56,3.18V9.6h2.11Zm-2.11-7.07a5.14,5.14,0,1,0-10.28,0,5.14,5.14,0,1,0,10.28,0Z'/><path class='cls-2' d='M78.93,29.63V9.6H81v20Z'/><path class='cls-2' d='M97.21,23.34H85.6a5,5,0,0,0,5.16,4.53,6,6,0,0,0,4.4-1.78l1.16,1.24a7.46,7.46,0,0,1-5.73,2.38,6.8,6.8,0,0,1-7.07-7.18,6.81,6.81,0,0,1,7-7.18C95.16,15.32,97.42,18.51,97.21,23.34Zm-1.89-1.73a4.44,4.44,0,0,0-4.75-4.45,4.8,4.8,0,0,0-5,4.45Z'/><path class='cls-2' d='M116,26.85a8.15,8.15,0,0,1-5.86,2.89,5.33,5.33,0,0,1-5.61-5.19c0-2.75,2.08-4.18,4.29-5.37a7.4,7.4,0,0,1-1.94-4.45c0-2.38,1.86-4.08,4.61-4.08s4.37,1.57,4.37,3.81c0,2.56-2.32,3.89-4.66,5.13,1.16,1.35,2.69,2.91,4.58,4.78a18.13,18.13,0,0,0,2-3.68l1.43,1.11A18.64,18.64,0,0,1,117,25.58l3.26,3.21L119.16,30Zm-1.22-1.22c-2.07-2.07-3.77-3.8-5-5.29-1.87,1-3.43,2.16-3.43,4.05A3.68,3.68,0,0,0,110.22,28,6.27,6.27,0,0,0,114.78,25.63Zm-4.53-7.18c2.08-1.08,3.89-2.1,3.89-4a2.36,2.36,0,0,0-2.65-2.35,2.64,2.64,0,0,0-2.89,2.59A6.61,6.61,0,0,0,110.25,18.45Z'/><path class='cls-2' d='M34.71,38.46l-2.95,5.32A25.55,25.55,0,0,0,21.9,41c-2,0-3.39.65-3.39,1.95,0,4.64,16.28,2,16.28,11.69,0,5.36-5.45,8.19-12.32,8.19A25.14,25.14,0,0,1,8.39,58.53l3-5.25a20.76,20.76,0,0,0,11.13,4c2.46,0,4-.81,4-2.34,0-4.75-16.28-1.92-16.28-11.42,0-4.94,4.89-8.08,12.28-8.08A25.77,25.77,0,0,1,34.71,38.46Z'/><path class='cls-2' d='M43.72,57.65l-2.24,4.94h-8L46.72,35.78h8.05l13,26.81H59.39l-2.2-4.94ZM50.5,42.56,46,52.48H54.9Z'/><path class='cls-2' d='M74.88,62.59l-12-26.81h8.36l7.87,19.73L87,35.78h8L83,62.59Z'/><path class='cls-2' d='M103.74,41.14v5.33h14.7v5.36h-14.7v5.4h16.77v5.36H95.91V35.78H120v5.36Z'/></g></g></svg>
+            $${parseFloat(car_price - (number_car_rentals_days * 2)).toFixed(2)}
+          </span>
+          `;
+          $(this).after(car_bundle_save_html);
+        }
+      })
+    }
+  }
+
+}) // end car selection - spa.then 
+
+
+
+
+/** HELPERS */
+function calculateDateDifference(endDate, startDate){
+  const MS_TO_DAY = 86400000;
+  const number_of_days = new Date(endDate - startDate) / MS_TO_DAY;
+  return number_of_days;
+}
+
+function calculateHotelDiscountPrice(hotelPrice, numberofNights) {
+  let discountAmount = 5;
+  let price = hotelPrice.replace(/[$,]+/g, "");
+  let discountedPrice = (Number(price) - (discountAmount * numberofNights)).toFixed(2);
+  return discountedPrice;
+}
+
+function applyHotelPageDiscountStyles(element, hotel_number_of_nights = 0){
+    
+  $(element).css({
+    "text-decoration": "line-through",
+    "color": "#7d7d7d",
+    "font-size": "1.5rem"
+  });
+
+  let hotelDiscountPrice = calculateHotelDiscountPrice(element.innerText, hotel_number_of_nights);
+ 
+    $(element).after(`
+    <div class="bundle-and-save" style="display:flex; align-items:center;margin-top: 10px;margin-bottom: 10px;">
+    <span style="display:inline-block;height: 38px; width: 77px;margin-right: 5px; vertical-align:bottom;">
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 157.8 74.67'><defs><style>.cls-1{fill:#f15500;}.cls-2{fill:#fff;}</style></defs><title>Asset 1</title><g id='Layer_2' data-name='Layer 2'><g id='Layer_2-2' data-name='Layer 2'><path class='cls-1' d='M106.67,71.56,76,44.75a9.6,9.6,0,0,1,0-14.83L106.67,3.11a13.29,13.29,0,0,1,17,0L154.3,29.92a9.6,9.6,0,0,1,0,14.83L123.64,71.56A13.29,13.29,0,0,1,106.67,71.56Z'/><path class='cls-1' d='M12.9,0H115.07V74.67H12.81A12.82,12.82,0,0,1,0,61.86v-49A12.89,12.89,0,0,1,12.9,0Z'/><circle class='cls-2' cx='144.98' cy='36.96' r='7.2'/><path class='cls-2' d='M19.61,10.73c3.81,0,6.1,1.76,6.1,4.73a4.11,4.11,0,0,1-3.48,4.26,4.62,4.62,0,0,1,4.32,4.78c0,3.21-2.54,5.13-6.8,5.13h-8.1V10.73Zm-5.8,8.16H19.5c2.54,0,4-1.11,4-3.08s-1.49-3-4-3H13.81Zm0,8.69H19.5c3.08,0,4.86-1.22,4.86-3.38s-1.78-3.26-4.86-3.26H13.81Z'/><path class='cls-2' d='M41.67,29.63H39.56V26.42c-.94,2.21-2.83,3.26-5.39,3.29-3.32,0-5.32-2.11-5.32-5.53V15.4H31v8.21a3.65,3.65,0,0,0,3.94,4c3-.05,4.67-2.18,4.67-5.21v-7h2.11Z'/><path class='cls-2' d='M58.46,20.86v8.77h-2.1V21.42a3.68,3.68,0,0,0-4-4A4.61,4.61,0,0,0,47.56,22v7.64H45.45V15.4h2.11v3.13c1-2.15,2.91-3.18,5.5-3.21C56.47,15.32,58.46,17.43,58.46,20.86Z'/><path class='cls-2' d='M74.88,29.63H72.77V26.58a5.92,5.92,0,0,1-5.53,3.16c-4,0-6.86-3-6.86-7.24s2.81-7.2,6.83-7.2a6,6,0,0,1,5.56,3.18V9.6h2.11Zm-2.11-7.07a5.14,5.14,0,1,0-10.28,0,5.14,5.14,0,1,0,10.28,0Z'/><path class='cls-2' d='M78.93,29.63V9.6H81v20Z'/><path class='cls-2' d='M97.21,23.34H85.6a5,5,0,0,0,5.16,4.53,6,6,0,0,0,4.4-1.78l1.16,1.24a7.46,7.46,0,0,1-5.73,2.38,6.8,6.8,0,0,1-7.07-7.18,6.81,6.81,0,0,1,7-7.18C95.16,15.32,97.42,18.51,97.21,23.34Zm-1.89-1.73a4.44,4.44,0,0,0-4.75-4.45,4.8,4.8,0,0,0-5,4.45Z'/><path class='cls-2' d='M116,26.85a8.15,8.15,0,0,1-5.86,2.89,5.33,5.33,0,0,1-5.61-5.19c0-2.75,2.08-4.18,4.29-5.37a7.4,7.4,0,0,1-1.94-4.45c0-2.38,1.86-4.08,4.61-4.08s4.37,1.57,4.37,3.81c0,2.56-2.32,3.89-4.66,5.13,1.16,1.35,2.69,2.91,4.58,4.78a18.13,18.13,0,0,0,2-3.68l1.43,1.11A18.64,18.64,0,0,1,117,25.58l3.26,3.21L119.16,30Zm-1.22-1.22c-2.07-2.07-3.77-3.8-5-5.29-1.87,1-3.43,2.16-3.43,4.05A3.68,3.68,0,0,0,110.22,28,6.27,6.27,0,0,0,114.78,25.63Zm-4.53-7.18c2.08-1.08,3.89-2.1,3.89-4a2.36,2.36,0,0,0-2.65-2.35,2.64,2.64,0,0,0-2.89,2.59A6.61,6.61,0,0,0,110.25,18.45Z'/><path class='cls-2' d='M34.71,38.46l-2.95,5.32A25.55,25.55,0,0,0,21.9,41c-2,0-3.39.65-3.39,1.95,0,4.64,16.28,2,16.28,11.69,0,5.36-5.45,8.19-12.32,8.19A25.14,25.14,0,0,1,8.39,58.53l3-5.25a20.76,20.76,0,0,0,11.13,4c2.46,0,4-.81,4-2.34,0-4.75-16.28-1.92-16.28-11.42,0-4.94,4.89-8.08,12.28-8.08A25.77,25.77,0,0,1,34.71,38.46Z'/><path class='cls-2' d='M43.72,57.65l-2.24,4.94h-8L46.72,35.78h8.05l13,26.81H59.39l-2.2-4.94ZM50.5,42.56,46,52.48H54.9Z'/><path class='cls-2' d='M74.88,62.59l-12-26.81h8.36l7.87,19.73L87,35.78h8L83,62.59Z'/><path class='cls-2' d='M103.74,41.14v5.33h14.7v5.36h-14.7v5.4h16.77v5.36H95.91V35.78H120v5.36Z'/></g></g></svg>
+    </span>
+    <span style="display:inline-block; font-size: 2rem;color: rgb(1, 87, 155);font-weight: 600;line-height: 1;">$${hotelDiscountPrice}</span>
+    </div>
+    `);
+}
+
+function handleApplyBMSMPromoCodes(promo){
+  $.ajax({
+    method:"POST",
+    headers:{
+    "Transaction-Id": document.location.href.split('/')[4],
+
+    },
+    dataType: "json",
+    contentType: "application/json",
+    url: "/graphql",
+    data: JSON.stringify({
+    operationName: "addPromoPayment",
+    variables: {payment: {code: promo || "BMSMB" + "00" + "00"  + "00"  }},
+    query: `
+    mutation addPromoPayment($payment: PromoPaymentInput!) {
+    addPromoPayment(payment: $payment) {
+    order {
+    loyalty {
+    ...LoyaltyFragment
+    __typename
+    }
+    payments {
+    ...OrderPaymentFragment
+    ...PromoPaymentFragment
+    ...VoucherPaymentFragment
+    __typename
+    }
+    price {
+    balanceDue
+    __typename
+    }
+    __typename
+    }
+    errors
+    __typename
+    }
+    }
+
+    fragment OrderPaymentFragment on OrderPayment {
+    paymentType
+    paymentStatus
+    paymentMethod
+    total {
+    amount
+    currency
+    __typename
+    }
+    __typename
+    }
+
+    fragment PromoPaymentFragment on PromoPayment {
+    id
+    description
+    isAutoApplied
+    __typename
+    }
+
+    fragment VoucherPaymentFragment on VoucherPayment {
+    id
+    type
+    __typename
+    }
+
+    fragment LoyaltyFragment on OrderLoyalty {
+    totalPoints
+    totalAmount {
+    amount
+    currency
+    __typename
+    }
+    applicableAmount {
+    amount
+    currency
+    __typename
+    }
+    applicablePoints
+    rewardPoints
+    dueAmount {
+    amount
+    __typename
+    }
+    bonusPoints
+    enrolled
+    eligible
+    bonusAndRewardPoints
+    totalDueAmount {
+    amount
+    currency
+    __typename
+    }
+    __typename
+    }
+
+    `
+    }
+    ),
+    success: function(res, status, xhr){
+    updateCartDetails();
+
+    }
+
+
+    });
+
+    function updateCartDetails(){
+          $.ajax({
+            method:"POST",
+            headers:{
+                "Transaction-Id": document.location.href.split('/')[4],
+                
+            },   
+            dataType: "json",
+            contentType: "application/json",
+            url: "/graphql",
+            data: JSON.stringify({ 
+                variables: {}, 
+                query: `     query cart {
+          order {
+            items {
+              id
+              __typename
+              ...BundleOrderItemFragment
+              ...FlightOrderItemFragment
+              ...HotelOrderItemFragment
+              ...SeatOrderItemFragment
+              ...TravelerAncillaryOrderItemFragment
+              ...VehicleOrderItemFragment
+              ...ItineraryAncillaryOrderItemFragment
+            }
+            travelers {
+              id
+              firstName
+              lastName
+              middleName
+              suffix
+              isPrimary
+              type
+              ssrs {
+                code
+                flightId
+                title
+                price {
+                  amount
+                  currency
+                  __typename
+                }
+                additionalInfo
+                __typename
+              }
+              __typename
+            }
+            price {
+              total
+              balanceDue
+              taxes {
+                amount
+                __typename
+              }
+              fees {
+                amount
+                __typename
+              }
+              __typename
+            }
+            payments {
+              ... on PromoPayment {
+                id
+                description
+                total {
+                  amount
+                  currency
+                  __typename
+                }
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+        }
+
+        fragment BundleOrderItemFragment on OrderItem {
+          ... on BundleOrderItem {
+            id
+            bundle {
+              id
+              tier
+              name
+              banner
+              ancillaries {
+                name
+                type
+                price {
+                  amount
+                  __typename
+                }
+                __typename
+              }
+              __typename
+            }
+            price {
+              amount
+              currency
+              __typename
+            }
+            __typename
+          }
+          __typename
+        }
+
+        fragment FlightOrderItemFragment on OrderItem {
+          ... on FlightOrderItem {
+            id
+            flight {
+              id
+              number
+              origin {
+                code
+                displayName
+                city
+                state
+                __typename
+              }
+              destination {
+                code
+                displayName
+                city
+                state
+                __typename
+              }
+              departingTime
+              arrivalTime
+              isOvernight
+              __typename
+            }
+            seatmap {
+              seatSizesMap {
+                id
+                name
+                __typename
+              }
+              __typename
+            }
+            flightPrice: price {
+              total
+              subtotal
+              taxesAndFees
+              taxes {
+                total {
+                  amount
+                  currency
+                  __typename
+                }
+                breakdown {
+                  name
+                  code
+                  value {
+                    amount
+                    currency
+                    __typename
+                  }
+                  __typename
+                }
+                __typename
+              }
+              fees {
+                total {
+                  amount
+                  currency
+                  __typename
+                }
+                breakdown {
+                  name
+                  code
+                  value {
+                    amount
+                    currency
+                    __typename
+                  }
+                  __typename
+                }
+                __typename
+              }
+              discountValue {
+                amount
+                currency
+                __typename
+              }
+              discountType
+              total
+              __typename
+            }
+            __typename
+          }
+          __typename
+        }
+
+        fragment HotelOrderItemFragment on OrderItem {
+          ... on HotelOrderItem {
+            id
+            hotelPrice: price {
+              total
+              __typename
+            }
+            roomType
+            roomsCount
+            roomId
+            hotelId
+            hotel {
+              name
+              promos {
+                id
+                code
+                headlineDescription
+                __typename
+              }
+              __typename
+            }
+            checkin {
+              time
+              __typename
+            }
+            checkout {
+              time
+              __typename
+            }
+            roomsCount
+            adultCount
+            childrenCount
+            __typename
+          }
+          __typename
+        }
+
+        fragment SeatOrderItemFragment on OrderItem {
+          ... on SeatOrderItem {
+            id
+            flightId
+            travelerId
+            column
+            row
+            price {
+              amount
+              currency
+              __typename
+            }
+            bundledAncillaryPrice {
+              amount
+              __typename
+            }
+            isBundledAncillaryIncluded
+            seatSizeId
+            __typename
+          }
+          __typename
+        }
+
+        fragment TravelerAncillaryOrderItemFragment on OrderItem {
+          ... on TravelerAncillaryOrderItem {
+            id
+            flightId
+            travelerId
+            ancillaryType
+            quantity
+            price {
+              amount
+              currency
+              __typename
+            }
+            bundledAncillaryPrice {
+              amount
+              __typename
+            }
+            isBundledAncillaryIncluded
+            __typename
+          }
+          __typename
+        }
+
+        fragment VehicleOrderItemFragment on OrderItem {
+          ... on VehicleOrderItem {
+            id
+            vehiclePrice: price {
+              total {
+                amount
+                currency
+                __typename
+              }
+              __typename
+            }
+            vehicle {
+              category
+              code
+              type
+              description
+              __typename
+            }
+            vendor {
+              name
+              __typename
+            }
+            promotions {
+              id
+              code
+              headlineDescription
+              __typename
+            }
+            pickUpDate
+            dropOffDate
+            __typename
+          }
+          __typename
+        }
+
+        fragment ItineraryAncillaryOrderItemFragment on OrderItem {
+          ... on ItineraryAncillaryOrderItem {
+            id
+            ancillaryType
+            quantity
+            price {
+              amount
+              currency
+              __typename
+            }
+            bundledAncillaryPrice {
+              amount
+              __typename
+            }
+            isBundledAncillaryIncluded
+            __typename
+          }
+          __typename
+        }`})})
+              
+  }
+}
+
+function checkCookieExists(key) {
+  var pattern = key + "=\[\\w\]+";
+  var regex = new RegExp(pattern, "gm");
+  return !!document.cookie.match(regex);
+}
+
+function getCookieValue(key){
+  var pattern = key + "=\[\\w\]+";
+  var regex = new RegExp(pattern, "gm");
+  return document.cookie.match(regex)[0].split(`${key}=`).join("");
+}
+
+
+</script>

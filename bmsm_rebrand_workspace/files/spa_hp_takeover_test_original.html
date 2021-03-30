@@ -1,0 +1,57 @@
+<style>
+  body [data-hook="homepage-hero-image"]:after {
+      background: linear-gradient(transparent 90%, #00000088 100%);
+  }
+</style>
+
+<script>
+  console.log('hp test.......... 17');
+
+  // OG WHEN TEST
+  when(function() {
+      return window.$ !== undefined && !!window.$;
+  }).then(function() {
+      console.log('OG WHEN - jQUERY is loaded', window.$);
+
+  });
+  
+  
+  
+  spa.when([
+      spa.conditions.element('form[data-hook="flight-search-form"]'),
+      spa.conditions.element('[data-hook="header-search-widget"]').not()
+  ]).then(function() {
+
+      console.log("Campaign is on");
+      console.log('jquery is....', window.$);
+
+      spa.dom.changeStyle('[data-hook="homepage-hero-image"]', 'background-image: url("https://d1ghe043m1zc2y.cloudfront.net/common/Allegiant-Stadium-Takeover-Background.jpg")');
+      
+      spa.dom.changeStyle('header > nav > div:nth-child(2)', 'background-color: #000; ');
+      spa.dom.changeStyle('header > nav > div:nth-child(2) > div > div > div > [data-hook="header-main-menu"] > li > a', 'color: #fff; ');
+
+      spa.dom.changeStyle('[data-hook="header-main-menu-item_travel-info"], [data-hook="header-user-menu-item_log-in"], ', 'color: #fff;');
+      
+      spa.dom.changeStyle($('[data-hook="flight-search-form"]').closest('div')[0], 'background: linear-gradient(rgba(0, 0, 0, 0.71), rgb(33, 33, 33, 0.85) 40%);');
+
+
+      // document.addEventListener('homepage', function(){
+      
+      //     console.log('Homepage Detected');
+      //     //$('*[data-hook="homepage-hero-image"]').remove();
+      //     //$('*[data-hook="billboard-carousel"]').remove();
+      
+      // }, false);
+
+  });
+
+      
+
+      
+      
+
+      
+
+      
+  
+  </script>
